@@ -2,5 +2,16 @@ sudo: false
 language: php
 php: 7.1
 
+before_script:
+  - composer install
+
 script:
   - composer run linter
+
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+
+matrix:
+  fast_finish: false
