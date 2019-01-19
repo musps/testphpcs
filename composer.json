@@ -1,0 +1,10 @@
+{
+    "require": {
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "scripts": {
+      "linter": [
+        "./vendor/bin/phpcs"
+      ]
+    }
+}
