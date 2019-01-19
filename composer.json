@@ -4,7 +4,7 @@
     },
     "scripts": {
       "linter": [
-        "./vendor/bin/phpcs"
+        "./vendor/bin/phpcs app/"
       ]
     }
 }
